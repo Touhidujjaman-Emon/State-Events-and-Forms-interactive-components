@@ -27,3 +27,10 @@ const handlePrevious = function(){
   Previous
 </button>
 ```
+
+## What is State
+
+![state](state.png)
+
+**Example**:
+![state-example](state-example.png)
