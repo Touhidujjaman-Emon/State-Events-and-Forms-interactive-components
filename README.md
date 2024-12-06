@@ -1,4 +1,4 @@
-## Event
+## Handling events
 
 **Correct way to handle events in React:**
 
@@ -12,11 +12,17 @@
 **Correct prop name for mouse enter event:** `onMouseEnter` (lowercase "o")
 
 ```js
+const handlePrevious = function(){
+    alert("previous")
+}
 <button
   // right way
   onClick={() => alert("previous")}
+  onClick={handlePrevious}
+
   //   wrong way
-  onMouseEnter={alert("worng")}
+  onClick={alert("worng")}
+  onClick={handlePrevious()}
 >
   Previous
 </button>

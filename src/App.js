@@ -22,7 +22,6 @@ export default function App() {
         <button
           style={{ backgroundColor: " #7950f2", color: "#fff" }}
           onClick={() => alert("previous")}
-          onMouseEnter={alert("worng")}
         >
           Previous
         </button>
