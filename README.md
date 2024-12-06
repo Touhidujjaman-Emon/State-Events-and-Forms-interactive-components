@@ -32,5 +32,5 @@ const handlePrevious = function(){
 
 ![state](state.png)
 
-**Example**:
+**Example**
 ![state-example](state-example.png)
