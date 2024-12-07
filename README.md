@@ -32,5 +32,13 @@ const handlePrevious = function(){
 
 ![state](state.png)
 
-**Example**
-![state-example](state-example.png)
+- useState is a React hook that allows you to add state to functional components
+- it is typically used in the top-level scope of a functional component
+- It returns an array with two elements: the current state value and a function to update that value
+- The update function is typically used in event handlers or other functions to update the state
+- The state is re-rendered whenever the state value changes
+- The state value should be immutable, meaning it should not be directly mutated, but rather replaced with a new value
+- useState is typically used in combination with useEffect to handle side effects, such as fetching data from an API
+
+* **Example**
+  ![state-example](state-example.png)
