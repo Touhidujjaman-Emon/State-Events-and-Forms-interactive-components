@@ -31,6 +31,7 @@ const handlePrevious = function(){
 ## What is State
 
 ![state](state.png)
+![state-example](state-example.png)
 
 - useState is a React hook that allows you to add state to functional components
 - it is typically used in the top-level scope of a functional component
@@ -51,6 +52,3 @@ function handlePrevious() {
   if (step > 1) setStep(step - 1);
 }
 ```
-
-- **Example**
-  ![state-example](state-example.png)
