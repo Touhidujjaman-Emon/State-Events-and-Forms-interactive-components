@@ -40,5 +40,17 @@ const handlePrevious = function(){
 - The state value should be immutable, meaning it should not be directly mutated, but rather replaced with a new value
 - useState is typically used in combination with useEffect to handle side effects, such as fetching data from an API
 
-* **Example**
+```js
+const [step, setStep] = useState(1);
+
+function handleNext() {
+  if (step < 3) setStep(step + 1);
+}
+
+function handlePrevious() {
+  if (step > 1) setStep(step - 1);
+}
+```
+
+- **Example**
   ![state-example](state-example.png)
