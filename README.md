@@ -38,7 +38,7 @@ const handlePrevious = function(){
 - It returns an array with two elements: the current state value and a function to update that value
 - The update function is typically used in event handlers or other functions to update the state
 - The state is re-rendered whenever the state value changes
-- The state value should be immutable, meaning it should not be directly mutated, but rather replaced with a new value
+- The state value should be immutable, meaning it should not be directly mutated, but rather replaced with a new value (do not set state manually)
 - useState is typically used in combination with useEffect to handle side effects, such as fetching data from an API
 
 ```js
