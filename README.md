@@ -51,4 +51,13 @@ function handleNext() {
 function handlePrevious() {
   if (step > 1) setStep(step - 1);
 }
+
+// If we need to update the state based on the current step
+
+function handlePrevious() {
+  if (step > 1) {
+    setStep((curStep) => s - 1);
+    setStep((curStep) => s - 1);
+  }
+}
 ```
