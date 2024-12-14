@@ -65,3 +65,7 @@ function handlePrevious() {
 ### practical state guideline
 
 ![state-guide-line](practicak-state-guideline.png)
+
+## Coding challenge 1: (date counter)
+
+https://codesandbox.io/p/sandbox/hzjghd
