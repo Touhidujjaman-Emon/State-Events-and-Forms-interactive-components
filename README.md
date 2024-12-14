@@ -52,7 +52,7 @@ function handlePrevious() {
   if (step > 1) setStep(step - 1);
 }
 
-// If we need to update the state based on the current step
+// If we need to update the state based on the current state
 
 function handlePrevious() {
   if (step > 1) {
@@ -61,3 +61,7 @@ function handlePrevious() {
   }
 }
 ```
+
+### practical state guideline
+
+![state-guide-line](practicak-state-guideline.png)
