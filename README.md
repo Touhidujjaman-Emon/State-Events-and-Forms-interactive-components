@@ -68,7 +68,7 @@ function handlePrevious() {
 
 ### State vs Props
 
-![state vs props](<state vs props.png>)
+![state vs props](state-vs-props.png)
 
 ## Controled elements
 
