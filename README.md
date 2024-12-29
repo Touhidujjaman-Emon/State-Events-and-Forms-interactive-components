@@ -137,3 +137,6 @@ const [description, setDescription] = useState("");
 ## Coding challenge 1: (date counter)
 
 https://codesandbox.io/p/sandbox/hzjghd
+
+## Exercise
+https://codesandbox.io/p/sandbox/bitter-lake-shhmww?workspaceId=ws_BXaTCjWtzwYJp8LKRsvaK3
