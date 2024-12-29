@@ -70,6 +70,33 @@ function handlePrevious() {
 
 ![state vs props](state-vs-props.png)
 
+## Children props
+
+- **Definition:** In React, the `children` prop is a special prop that allows you to pass components, strings, numbers, or arrays of components as props to other components.
+
+**Simple Example:**
+
+```jsx
+import React from "react";
+
+const Parent = ({ children }) => {
+  return <div>{children}</div>;
+};
+
+const App = () => {
+  return (
+    <Parent>
+      <h1>Hello World!</h1>
+      <p>This is a paragraph.</p>
+    </Parent>
+  );
+};
+```
+
+In this example, the `Parent` component expects a `children` prop, which is used to render the content of the component. The `App` component passes two elements (`h1` and `p`) as children to the `Parent` component.
+
+![children-prop](children-prop.png)
+
 ## Controled elements
 
 - In React, a controlled element is an input element (such as input, textarea, or select) whose value is controlled by the **component's state (by React)**. This means that the component's state is the single source of truth for the element's value, and the element's value is updated automatically when the state changes.
